@@ -1,0 +1,99 @@
+body
+{
+    margin: 0px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    background-color: #1b1b1b;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+
+.main-title
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(189, 189, 189);
+}
+
+.nav-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.right-side
+{
+    display: flex;
+}
+
+.nav-wrapper > .right-side > div
+{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.nav-link-wrapper
+{
+    height: 22px;
+    align-self: flex-end;
+}
+
+.nav-link-wrapper a
+{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.nav-link-wrapper a:hover
+{
+    color: rgb(160, 160, 160);;
+}
+
+
+.content-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-wrapper
+{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.img-wrapper img
+{
+    width: 720px;
+    border-radius: 16px;
+}
+
+
+.static 
+{
+    position:absolute;
+    background: white;
+}
+.active
+{
+    position: absolute;
+}
+  
+.static:hover 
+{
+    opacity:0;
+}
